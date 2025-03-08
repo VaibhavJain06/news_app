@@ -126,9 +126,9 @@ class HomeBloc extends Bloc<HomeEvent, HomeState> {
       case 0:
         return "https://newsapi.org/v2/top-headlines?sources=techcrunch&apiKey=$apiKey";
       case 1:
-         return "https://newsapi.org/v2/top-headlines?country=us&category=health&apiKey=$apiKey";
+          return "https://newsapi.org/v2/top-headlines?country=us&category=business&apiKey=$apiKey";
       case 2:
-        return "https://newsapi.org/v2/top-headlines?country=us&category=business&apiKey=$apiKey";
+        return "https://newsapi.org/v2/top-headlines?country=us&category=health&apiKey=$apiKey";
       case 3:
         return "https://newsapi.org/v2/top-headlines?country=us&category=sports&apiKey=$apiKey";
       

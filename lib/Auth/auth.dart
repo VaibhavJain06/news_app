@@ -48,7 +48,7 @@ class _AuthScreenState extends State<AuthScreen> {
                   Icon(
                     Icons.article_rounded,
                     size: 80,
-                    color: Theme.of(context).colorScheme.primary,
+                    color: Colors.black,
                   ),
                   const SizedBox(height: 16),
                   Text(
@@ -56,7 +56,7 @@ class _AuthScreenState extends State<AuthScreen> {
                     textAlign: TextAlign.center,
                     style: Theme.of(context).textTheme.headlineMedium?.copyWith(
                       fontWeight: FontWeight.bold,
-                      color: Theme.of(context).colorScheme.primary,
+                      color: Colors.black,
                     ),
                   ),
                   const SizedBox(height: 48),
@@ -154,7 +154,7 @@ class _AuthScreenState extends State<AuthScreen> {
                             },
                             style: ElevatedButton.styleFrom(
                               backgroundColor:
-                                  Theme.of(context).colorScheme.primary,
+                                  Colors.black,
                               foregroundColor: Colors.white, 
                               shape: RoundedRectangleBorder(
                                 borderRadius: BorderRadius.circular(12),
@@ -180,7 +180,7 @@ class _AuthScreenState extends State<AuthScreen> {
                               _isLogin
                                   ? 'Don\'t have an account? Sign Up'
                                   : 'Already have an account? Sign In',
-                            ),
+                            style: TextStyle(color: Colors.black),),
                           ),
                         
                       ],
